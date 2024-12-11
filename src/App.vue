@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img class="twitter" src="/twitter.png" />
-    <img class="pump" src="/pump.png" />
+    <img v-on:click="goTwitter" class="twitter" src="/twitter.png" />
+    <img v-on:click="goPump" class="pump" src="/pump.png" />
     <img class="image" src="/image.png" />
     <three-model-viewer/>
     <div class="font_1">
@@ -32,6 +32,14 @@ export default {
   name: 'App',
   components: {
     ThreeModelViewer
+  },
+  methods: {
+    goTwitter() {
+      window.open('https://x.com/lastdrop_sol', '_blank');
+    },
+    goPump() {
+      window.open('https://pump.fun', '_blank');
+    }
   }
 }
 </script>
