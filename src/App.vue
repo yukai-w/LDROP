@@ -23,6 +23,7 @@ export default {
   methods: {
     goTwitter() {
       window.open('https://x.com/ashbaby_sol', '_blank');
+      
     },
     goPump() {
       window.open('https://pump.fun', '_blank');
