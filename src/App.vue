@@ -1,26 +1,13 @@
 <template>
   <div id="app">
-    <img v-on:click="goTwitter" class="twitter" src="/twitter.png" />
-    <img v-on:click="goPump" class="pump" src="/pump.png" />
-    <img class="image" src="/image.png" />
     <three-model-viewer/>
-    <div class="font_1">
-      <div class="title">
-        About
-      </div>
-      <div class="content">
-        "Last Drop" is the first MemeCoin utilizing 3D technology, symbolizing resilience and determination. It merges cutting-edge 3D animation with blockchain innovations, exploring new frontiers in digital art and virtual currencies.
-      </div>
-    </div>
-    <div class="font_2">
-      <div class="title">
-        Roadmap
-      </div>
-      <div class="content">
-        Launch Phase: Design and develop the 3D coin, initial listing on cryptocurrency exchanges.<br/>
-Expansion Phase: Grow the community, increase brand visibility, collaborate with art platforms, and introduce limited edition 3D coins.<br/>
-Reaching $ 200K Market Cap: Surprise initiatives for all supporters, such as special airdrops and access to an exclusive club with member benefits.
-      </div>
+    <div class="button-container">
+      <button onclick="location.href='https://x.com/STORYQ_SOL'">
+        <img src="/image3.png" alt="Icon">
+      </button>
+      <button onclick="location.href='https://www.pump.fun'">
+        <img src="/image2.png" alt="Icon">
+      </button>
     </div>
   </div>
 </template>
@@ -35,7 +22,7 @@ export default {
   },
   methods: {
     goTwitter() {
-      window.open('https://x.com/lastdrop_sol', '_blank');
+      window.open('https://x.com/ashbaby_sol', '_blank');
     },
     goPump() {
       window.open('https://pump.fun', '_blank');
@@ -104,4 +91,24 @@ body, html {
   font-size: 16px;
   color: white;
 }
+.button-container {
+            position: absolute;
+            z-index: 1000;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: 10000;
+        }
+        
+        .button-container button {
+          width: 60px;
+          height: 60px;
+          margin-left: 10px;
+        }
+
+        .button-container button img {
+            /* width: 100%;  */
+            height: 59%; 
+            object-fit: cover; 
+        }
 </style>
