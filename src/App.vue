@@ -2,7 +2,7 @@
   <div id="app">
     <three-model-viewer/>
     <div class="button-container">
-      <button onclick="location.href='https://x.com/ashbaby_sol'">
+      <button onclick="location.href='https://x.com/ash_baby_sol_'">
         <img src="/image3.png" alt="Icon">
       </button>
       <button onclick="location.href='https://www.pump.fun'">
