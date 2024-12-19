@@ -2,7 +2,7 @@
   <div id="app">
     <three-model-viewer/>
     <div class="button-container">
-      <button onclick="location.href='https://x.com/ash_baby_sol_'">
+      <button onclick="location.href='https://x.com/fartbaby_sol'">
         <img src="/image3.png" alt="Icon">
       </button>
       <button onclick="location.href='https://www.pump.fun'">
@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     goTwitter() {
-      window.open('https://x.com/ashbaby_sol', '_blank');
+      window.open('https://x.com/fartbaby_sol', '_blank');
 
     },
     goPump() {
